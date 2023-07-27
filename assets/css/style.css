@@ -1,3 +1,4 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,8 +14,6 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    
-   
 }
 
 header h1 {
@@ -25,7 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 } 
-/* removed div and added nav */
+/* removed div and added nav to be more specific */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,8 +39,6 @@ nav a {
     margin-left: 25px;
    
 }
-
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -75,50 +72,18 @@ sidebar{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* combined the benefits classes to clean up the code */
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+ 
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -132,7 +97,11 @@ sidebar{
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* consolidated the headings into one class */
+.inside-box h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 .search-engine-optimization img {
     max-height: 200px;
     float: left;
@@ -149,21 +118,6 @@ sidebar{
     max-height: 200px;
     float: left;
     margin-right: 25px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
