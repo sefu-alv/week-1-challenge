@@ -5,7 +5,7 @@ Horiseon is a marketing agency website made for companies who are trying to make
 ## screenshot 
 
 ![Screenshot 1](https://github.com/sefu-alv/week-1-challenge/blob/main/horiseon_1.png)
-![Screenshot 2] (https://github.com/sefu-alv/week-1-challenge/blob/main/horiseon_2.png)
+![Screenshot 2](https://github.com/sefu-alv/week-1-challenge/blob/main/horiseon_2.png)
 
 # Deployment 
 link: [https://sefu-alv.github.io/week-1-challenge/#online-reputation-management]
